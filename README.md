@@ -18,6 +18,7 @@ Copy the config.yml.example to config.yml and alternate as you need it.
 ### Run
 
 ```
+vagrant plugin install vagrant-disksize
 vagrant up
 ```
 
