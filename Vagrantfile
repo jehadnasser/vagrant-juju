@@ -25,6 +25,9 @@ Vagrant.configure("2") do |config|
 
   #config.vm.box = "centos/7"
   config.vm.box = "ubuntu/bionic64"
+  
+  # set storage size
+  config.disksize.size = vagrant_config['disksize']
 
   # set memory to 2048m
   config.vm.provider "virtualbox" do |vb|
